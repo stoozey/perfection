@@ -1,0 +1,41 @@
+<html>
+	<script>
+		function getRandomImage(imgAr, path) {
+			var num = Math.floor( Math.random() * imgAr.length );
+			var img = imgAr[ num ];
+			var imgStr = '<img src="' + path + img + '" alt="" style="width:55%;height:55%;object-fit:contain;margin:auto;display:block;">';
+			document.write(imgStr); document.close();
+		}
+		
+		var names = [
+			"perfectionr.gif",
+			"perfection-bald.jpg",
+			"perfectionl.gif",
+			"perfection-trol.jpg",
+			"perfection-horny.jpg",
+			"perfection-bday.jpg",
+			"perfection-festive.jpg",
+			"perfection-ahegao.jpg",
+			"perfectionu.gif",
+			"perfection-megumin.jpg",
+			"perfection-newyears.jpg",
+			"perfection-devious.jpg",
+			"perfection-swag.jpg",
+			"perfection-jeremy.jpg",
+			"perfection-faded.jpg",
+			"perfection-flip.jpg",
+			"perfection-carlos.jpg",
+			"perfection-depresion.jpg",
+			"perfection-miku.jpg",
+			"perfection.gif",
+			"perfection.jpg",
+			"perfection-vera.jpg",
+			"perfection-gamer.jpg",
+			"perfection-lesbian.jpg",
+			"perfection-walnut.jpg",
+			"perfection-peach.jpg",
+		];
+		
+		getRandomImage(names, "https://stoozey-s1.fra1.cdn.digitaloceanspaces.com/static/img/perfection/");
+	</script>
+</html>
